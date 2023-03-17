@@ -3,8 +3,8 @@ import '../../style/components/_FormField.sass'
 const FormField = (props) => {
     return (   
             <div className="form-field">
-                <label htmlFor="nome">{props.label}</label>
-                <input type="text" id="nome" placeholder={props.placeholder}/>
+                <label>{props.label}</label>
+                <input required={props.requires} type="text" placeholder={props.placeholder}/>
             </div>
     );
 };
