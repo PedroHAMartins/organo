@@ -1,0 +1,34 @@
+@use '../abstract/_variables'
+
+.employee
+    width: 280px
+
+    .header
+        background-color: variables.$graybackground
+        border-radius:  10px 10px 0px 0px
+
+    img
+        width: 100px
+        border-radius: 50%
+        position: relative
+        bottom: -50px
+
+    .footer
+        background: variables.$color-white
+        box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.08)
+        border-radius: 0px 0px 10px 10px
+        padding-top: 90px
+        padding-bottom: 40px
+
+        h4
+            color: variables.$maincolor
+            font-size: 1.125em
+            line-height: 22px
+            font-weight: bold
+            margin-bottom: 8px
+
+        h5
+            font-size: 1.125em
+            line-height: 22px
+            color: variables.$color-black
+            padding: 0 16px
